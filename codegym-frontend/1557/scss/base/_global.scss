@@ -1,0 +1,1 @@
+@use "../abstracts/variables" as v; body {font-family:Arial; color:v.$text;} h1{font-size:v.$large;color:v.$text;} h2{font-size:v.$medium;color:v.$text;}

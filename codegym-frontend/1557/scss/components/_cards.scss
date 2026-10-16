@@ -1,0 +1,1 @@
+@use "../abstracts/mixins" as m; .card {@include m.box-style; .title{margin-top:0;}}

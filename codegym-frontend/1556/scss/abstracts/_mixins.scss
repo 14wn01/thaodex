@@ -1,0 +1,1 @@
+@use "variables" as v; @mixin button-style($bg) {background:$bg;color:white;padding:10px 20px;border-radius:5px;} @mixin box-shadow {box-shadow:v.$shadow;}

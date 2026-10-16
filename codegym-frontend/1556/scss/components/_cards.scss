@@ -1,0 +1,1 @@
+@use "../abstracts/variables" as v; @use "../abstracts/mixins" as m; .card {border:1px solid v.$border; padding:20px; @include m.box-shadow; .title {margin-top:0;}}
