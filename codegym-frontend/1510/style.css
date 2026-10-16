@@ -1,0 +1,1 @@
+body{font:18px Arial;padding:24px}.container{display:flex;gap:12px;padding:20px;background:#eee;margin-bottom:20px;overflow:auto}.item{padding:20px;background:lightblue}.normal{flex-flow:row nowrap}.reverse{flex-flow:row-reverse nowrap}
