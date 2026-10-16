@@ -1,0 +1,1 @@
+const b=document.querySelector('.menu-icon'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',()=>{const open=n.classList.toggle('active');b.setAttribute('aria-expanded',String(open));});n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('active');b.setAttribute('aria-expanded','false');}));}

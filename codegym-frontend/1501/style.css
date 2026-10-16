@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{font:18px Arial;padding:20px}.gallery{display:flex;flex-wrap:wrap}figure{width:25%;margin:0;padding:8px}img{width:100%;height:auto;display:block}figcaption{text-align:center;border:1px solid #ccc;padding:16px}figure:hover img{outline:2px solid #2457ba}@media(max-width:700px){figure{width:50%}}@media(max-width:500px){figure{width:100%}}
