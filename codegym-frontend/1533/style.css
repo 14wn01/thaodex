@@ -1,0 +1,1 @@
+*{box-sizing:border-box}.container{width:100%}.left-column{width:60%;float:left;background:lightblue;padding:20px}.right-column{width:38%;float:right;background:lightgreen;padding:20px}.container::after{content:"";display:block;clear:both}

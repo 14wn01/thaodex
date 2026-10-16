@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{font:18px/1.6 Arial;margin:0}header,footer{background:#243c66;color:white;padding:25px}nav{background:#dbeafe;padding:16px}nav a{margin-right:20px}main{display:flex;gap:24px;padding:24px}section{flex:3}aside{flex:1;background:#eee;padding:20px}article{padding:20px;border-bottom:1px solid #ccc}@media(max-width:650px){main{display:block}}
