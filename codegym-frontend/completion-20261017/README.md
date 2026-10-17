@@ -1,0 +1,1 @@
+HTML/CSS practice exercises and rendered results for the remaining frontend activities.
