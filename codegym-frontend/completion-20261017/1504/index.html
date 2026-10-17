@@ -1,0 +1,29 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSS 1504</title><style>body{font-family:Arial;margin:24px;max-width:1000px}section{margin:20px 0 30px}.grid-container>div{padding:20px;background:lightblue;text-align:center;outline:1px solid white}.example0 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.example0 .grid-container div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+.example1 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 5%;
+    height: 400px;
+}
+
+.example1 .grid-container div {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+.example2 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: initial;
+}
+.example3 .grid-container{display:grid;grid-template-columns:repeat(2,1fr);grid-row-gap:inherit}</style><body><section class="example0" style="row-gap:30px"><h2>20px</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section><section class="example1" style="row-gap:30px"><h2>5% của 400px</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section><section class="example2" style="row-gap:30px"><h2>initial</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section><section class="example3" style="row-gap:30px"><h2>inherit (30px từ cha)</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section></body></html>
