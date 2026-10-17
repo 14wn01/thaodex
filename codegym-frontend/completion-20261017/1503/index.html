@@ -1,0 +1,25 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSS 1503</title><style>body{font-family:Arial;margin:24px;max-width:1000px}section{margin:20px 0 30px}.grid-container>div{padding:20px;background:lightblue;text-align:center;outline:1px solid white}.example0 .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+}
+
+.example0 .item1 {
+    grid-column-start: auto;
+}.example1 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.example1 .item1 {
+    grid-column-start: span 2;
+}.example2 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.example2 .item1 {
+    grid-column-start: 2;
+}</style><body><section class="example0" style="row-gap:30px"><h2>auto</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div></div></section><section class="example1" style="row-gap:30px"><h2>span 2</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section><section class="example2" style="row-gap:30px"><h2>column-line: 2</h2><div class="grid-container"><div class="item1">Ô 1</div><div class="item2">Ô 2</div><div class="item3">Ô 3</div><div class="item4">Ô 4</div></div></section></body></html>
